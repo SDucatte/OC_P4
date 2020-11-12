@@ -1,3 +1,35 @@
+/* Ajout de ma part */
+
+.col-sm-12 {
+    font-size: 24px;
+}
+
+.col-xs-12 {
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote {
+    font-size: 24px;
+    
+}
+
+.quote--name {
+    font-size: 14px;
+}
+
+blockquote {
+    content: none;
+}
+
+button {
+    display: block;
+    background: none;
+    border: none;
+    width: 100%;
+}
+/* Ajout de ma part */
 body {
     margin: 0;
     padding: 0;
@@ -91,7 +123,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper-min.png");
     background-size: 280px 280px;
 }
 
@@ -818,11 +850,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere-min.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation-min.jpg");
 }
 
 @media (max-width: 1024px) {
