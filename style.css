@@ -16,7 +16,7 @@
     font-size: 24px;
     font-style: italic;
     text-align: center;
-    color: white;
+    border: none;
 }
 
 .quote {
@@ -490,6 +490,8 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    word-spacing: 0.2rem;
+    font-size: 16px;
 }
 
 .mg-lg {
@@ -733,7 +735,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 .tight-width-whitespace {
@@ -812,7 +815,7 @@ h4 {
 .black-background {
     background-color: #C53730;
     padding: 40px 40px 40px 40px;
-    opacity: 0.8;
+    opacity: 0.9;
     border-radius: 3%;
 }
 
@@ -840,7 +843,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #C53730;
-    opacity: 0.6;
+    opacity: 0.8;
     color: #FFFFFF!important;
 }
 
