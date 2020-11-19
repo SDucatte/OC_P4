@@ -4232,9 +4232,12 @@ fieldset[disabled] .btn-link:hover {
 }
 
 input[type=button].btn-block,
-input[type=reset].btn-block,
-input[type=submit].btn-block {
+input[type=reset].btn-block {
     width: 100%
+}
+
+input[type=submit].btn-block {
+    width: 50%;
 }
 
 .fade {

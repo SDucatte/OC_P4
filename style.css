@@ -6,7 +6,6 @@
 
 .col-sm-4 {
     font-size: 14px;
-  
 }
 
 .image-resize-mode {
@@ -42,10 +41,69 @@ body {
     font-family: "firasans";
 }
 
-
 @font-face {
     font-family: "firasans";
     src: url("fonts/FiraSans-Light.otf") format("otf"), url("fonts/FiraSans-Regular.otf");
+}
+
+.form-group, #message {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-bottom: 0.3rem;
+}
+
+input {
+    line-height: 1.5;
+}
+
+.form-control:focus {
+    border-color: #C53730;
+    border-width: 3px;
+    outline: 0;
+    border-image: none;
+}
+
+input::placeholder {
+    color: rgba(133, 133, 133, 0.75);
+}
+
+textarea {
+    border-width: 2px;
+}
+
+textarea::placeholder {
+    color: rgba(133, 133, 133, 0.75);
+}
+
+.btn-atomic-tangerine--contact {
+    background: #C53730;
+    opacity: 0.8;
+    color: #FFFFFF!important;
+}
+
+.btn-submit {
+    border-radius: 1rem;
+}
+
+.btn-block {
+    width: 50%;
+}
+.container-form {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.info-footer {
+    margin-bottom: 2.5rem;
+    line-height: 3rem;
 }
 
 /* Ajout de ma part */
@@ -560,8 +618,13 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: black;
     box-shadow: none;
+    outline: 0;
+    border-style: solid;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    border-width: 2px;
 }
 
 .scrollToTop {
@@ -756,6 +819,9 @@ p {
     padding: 16px 32px 16px 32px;
     font-size: 18px;
     font-weight: 700;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .social {
@@ -845,6 +911,12 @@ h4 {
     background: #C53730;
     opacity: 0.8;
     color: #FFFFFF!important;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: fit-content;
 }
 
 .btn-atomic-tangerine:hover {
@@ -869,8 +941,8 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: black!important;
+    border-color: black!important;
 }
 
 .bg-dots-bg {
