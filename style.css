@@ -83,7 +83,7 @@ textarea::placeholder {
 
 .btn-atomic-tangerine--contact {
     background: #C53730;
-    opacity: 0.8;
+    opacity: 0.9;
     color: #FFFFFF!important;
 }
 
@@ -92,7 +92,7 @@ textarea::placeholder {
 }
 
 .btn-block {
-    width: 50%;
+    width: 75%;
 }
 .container-form {
     margin-left: auto;
@@ -104,6 +104,10 @@ textarea::placeholder {
 .info-footer {
     margin-bottom: 2.5rem;
     line-height: 3rem;
+}
+
+.social {
+    list-style: none;
 }
 
 /* Ajout de ma part */
@@ -133,7 +137,6 @@ a:hover {
     top: 0;
     bottom: 0;
     width: 100%;
-    z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
@@ -469,7 +472,6 @@ a:hover {
 .nav-invert .navbar-brand {
     float: right;
     position: relative;
-    z-index: 2;
 }
 
 @media (min-width: 768px) {
@@ -634,7 +636,6 @@ button {
     bottom: 20px;
     right: 20px;
     opacity: 0;
-    z-index: 500;
     transition: all .3s ease-in-out;
 }
 
@@ -709,7 +710,6 @@ a[data-lightbox]:hover img {
     position: absolute;
     top: 20px;
     right: 20px;
-    z-index: 20;
     background: rgba(0, 0, 0, .5);
     border: none;
     line-height: 30px;
@@ -833,6 +833,10 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
 }
 
 h3 {
@@ -879,9 +883,8 @@ h4 {
 }
 
 .black-background {
-    background-color: #C53730;
+    background-color: #a52720;
     padding: 40px 40px 40px 40px;
-    opacity: 0.9;
     border-radius: 3%;
 }
 
@@ -908,15 +911,15 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #C53730;
-    opacity: 0.8;
+    background: #a52720;
+    opacity: 0.9;
     color: #FFFFFF!important;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: center;
     align-content: center;
-    width: fit-content;
+    width: max-content;
 }
 
 .btn-atomic-tangerine:hover {
@@ -985,13 +988,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1009,20 +1012,11 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+   
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
-    }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
