@@ -37,14 +37,7 @@ button {
     width: 100%;
 }
 
-body {
-    font-family: "firasans";
-}
 
-@font-face {
-    font-family: "firasans";
-    src: url("fonts/FiraSans-Light.otf") format("otf"), url("fonts/FiraSans-Regular.otf");
-}
 
 .form-group, #message {
     display: flex;
