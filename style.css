@@ -8,9 +8,7 @@
     font-size: 14px;
 }
 
-.image-resize-mode {
-    width: 28%;
-}
+
 .col-xs-12 {
     font-size: 24px;
     font-style: italic;
@@ -36,8 +34,6 @@ button {
     border: none;
     width: 100%;
 }
-
-
 
 .form-group, #message {
     display: flex;
@@ -101,6 +97,10 @@ textarea::placeholder {
 
 .social {
     list-style: none;
+}
+
+strong {
+    font-weight: normal;
 }
 
 /* Ajout de ma part */
