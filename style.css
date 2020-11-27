@@ -1,5 +1,9 @@
 /* Ajout de ma part */
 
+.title {
+    text-transform: none;
+}
+
 .col-sm-12 {
     font-size: 24px;
 }
